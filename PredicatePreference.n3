@@ -1,0 +1,12 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix : <https://svasired.pod.knows.idlab.ugent.be/>.
+@prefix schema: <http://schema.org/>.
+
+
+
+#:me foaf:nick ?o.
+:me foaf:name ?o.
+#:me foaf:givenName ?o.
+#:me foaf:familyName ?o.
+:me schema:familyName ?o.
+:me schema:givenName ?o.
